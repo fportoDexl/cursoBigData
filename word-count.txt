@@ -1,0 +1,38 @@
+Precipitation nowcasting, a few hours ahead forecast for extreme rainfall events, is a relevant research topic with important impact on urban areas monitoring decision-making. In large cities, such as Rio de Janeiro, heavy precipitation events have been registered, specially during summer, causing property damage, citizens mobility disruption, and even deaths. A single extreme rainfall event, occurred in 2011 in a Rio de Janeiro nearby town, claimed the lives of more than 900 people. As the effects of climate change become stronger, more frequent episodes such as this are likely to be observed [1]. Despite the efforts dispensed to improve strong events forecast accuracy, results of the Rio Operation Center (COR), a department of the municipality responsible for throwing alerts of extreme events, needs improvements. In a 2019 internal study, da Silva [2] analyzed 168 rain alerts, from February 2019 to May 2019, emitted by COR. On the total forecasts emitted by COR classified as \emph{strong rain}, only 12% did materialize as such. More interestingly, 35% of these alerts corresponded to actual no rain observed. Conversely, considering the total forecast events for moderate rain, 49% had no rain and 2% faced heavy rain. Thus, there is a clear need to improve on extreme weather forecasts in urban areas, and in particular for the Rio de Janeiro city. Current approach followed by COR involves the interpretation by meteorologists of the results of numerical weather predictions (NWPs), such as: COSMO and the Weather Research and Forecasting (WRF) model and the follow-up on radar images, electromagnetic discharge and other meteorology  related sensors. 
+Objectives
+The goal of the project is to develop AI models to improve the assertivity of forecasts of extreme rainfall events in the city of Rio de Janeiro. 
+This goal assumes addressing the following objectives:
+to capture and prepare relevant data for training predictive AI models
+to conceive techniques, methods and algorithms to learn from extreme events data
+to make available a platform of data and AI models to be used by weather services in predicting extreme rainfall events
+to form human resources in the theme of the project
+
+2.1. Expected impacts (scientific, economic, social)
+There is a vital demand for accurate and reliable information on the prediction of extreme weather events, for appropriate action and timely warnings to the community. Hence, the development of advanced extreme weather forecasting tools has high potential benefits in socio-economic terms. The technologies to be created in the project can be integrated with the information dissemination systems for quick dispatch of information to disaster response units.
+
+Implementation
+ 
+      3.1. Work Plan
+The objectives of the project will be achieved through activities organized in tasks and deliverables 
+
+Preparação de proposta para uso do Santos Dumont 
+Estudo sobre os eventos extremos na cidade
+Levantamento sobre o Estado da Arte
+Coleta de dados e construção de API de acesso às diferentes fontes relevantes ((a) desenvolvimento da API, (b) coleta de dados).
+Organização dos dados em um Data Lake
+Pre-processamento dos dados coletados
+criação de tensores de fontes de dados
+curadoria dos dados
+Análise exploratória de dados
+Experimentação com modelos já concebidos
+Concepção e construção de novas abordagens de aprendizado 
+Experimentação e teste dos novos modelos
+Validação dos resultados por especialistas
+Escrita de artigos científicos
+Organização de Eventos de Divulgação (a → Hackathon; b → Workshop científico; c → Visita técnica) 
+Transferência dos resultados para avaliação operacional do COR
+
+Observações:
+A tarefa A4(a) depende da disponibilização de acesso programático a fonte de dados;
+A tarefa A13 terá organização pelo COR e pelo grupo de pesquisa
+
