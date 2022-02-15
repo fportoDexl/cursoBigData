@@ -1,5 +1,7 @@
 ************************
 * Conteudo do curso de BigData
-*
-arquivos de execicios
+****************
+slides das aulas
+arquivos de dados /data
   - wordcount.txt - texto para exercidio word count
+notebooks /src
