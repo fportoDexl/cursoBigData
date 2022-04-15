@@ -1,0 +1,74 @@
+id	integer
+listing_url	text
+scrape_id	bigint
+last_scraped	datetime
+name	text
+description	text
+neighborhood_overview	text
+picture_url	text
+host_id	integer
+host_url	text
+host_name	text
+host_since	date
+host_location	text
+host_about	text
+host_response_time	
+host_response_rate	
+host_acceptance_rate	
+host_is_superhost	boolean [t=true; f=false]
+host_thumbnail_url	text
+host_picture_url	text
+host_neighbourhood	text
+host_listings_count	text
+host_total_listings_count	text
+host_verifications	
+host_has_profile_pic	boolean [t=true; f=false]
+host_identity_verified	boolean [t=true; f=false]
+neighbourhood	text
+neighbourhood_cleansed	text
+neighbourhood_group_cleansed	text
+latitude	numeric
+longitude	numeric
+property_type	text
+room_type	text
+accommodates	integer
+bathrooms	numeric
+bathrooms_text	string
+bedrooms	integer
+beds	integer
+amenities	json
+price	currency
+minimum_nights	integer
+maximum_nights	integer
+minimum_minimum_nights	integer
+maximum_minimum_nights	integer
+minimum_maximum_nights	integer
+maximum_maximum_nights	integer
+minimum_nights_avg_ntm	numeric
+maximum_nights_avg_ntm	numeric
+calendar_updated	date
+has_availability	boolean
+availability_30	integer
+availability_60	integer
+availability_90	integer
+availability_365	integer
+calendar_last_scraped	date
+number_of_reviews	integer
+number_of_reviews_ltm	integer
+number_of_reviews_l30d	integer
+first_review	date
+last_review	date
+review_scores_rating	
+review_scores_accuracy	
+review_scores_cleanliness	
+review_scores_checkin	
+review_scores_communication	
+review_scores_location	
+review_scores_value	
+license	text
+instant_bookable	boolean
+calculated_host_listings_count	integer
+calculated_host_listings_count_entire_homes	integer
+calculated_host_listings_count_private_rooms	integer
+calculated_host_listings_count_shared_rooms	integer
+reviews_per_month	numeric
